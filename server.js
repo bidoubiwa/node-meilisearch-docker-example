@@ -15,10 +15,10 @@ app.get('/', async(req, res) => {
   let client = new MeiliSearch({ host: "http://0.0.0.0:7700"})
     console.log(await client.isHealthy(), 'first')
   
-    client = new MeiliSearch({ host: "http://meilisearch:7700"})
-    console.log(await client.isHealthy(), 'second')
+    client = new MeiliSearch({ host: "http://meilisearch:7700"}) // IS TRUE
+    console.log(await client.isHealthy(), 'second') 
   
-    client = new MeiliSearch({ host: "meilisearch:7700"})
+    client = new MeiliSearch({ host: "meilisearch:7700"}) // IS TRUE
     console.log(await client.isHealthy(), 'third')
     
     client = new MeiliSearch({ host: "meilisearch"})
