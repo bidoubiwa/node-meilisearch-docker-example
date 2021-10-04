@@ -1,5 +1,5 @@
-# minimal-express-boilerplate
-minimal-express-boilerplate
+# Node & MeiliSearch docker build
+
 
 ## Usage
 
