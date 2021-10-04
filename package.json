@@ -1,0 +1,16 @@
+{
+  "name": "minimal-express-boilerplate",
+  "version": "1.0.0",
+  "description": "aegaeg",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "meilisearch": "file:meilisearch-0.22.0.tgz"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
